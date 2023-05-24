@@ -1,0 +1,13 @@
+{"coord":{"lon":-3.7396,"lat":5.2038},
+"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],
+"base":"stations",
+"main":{"temp":305.14,"feels_like":311.79,"temp_min":305.14,"temp_max":305.14,"pressure":1011,"humidity":65,"sea_level":1011,"grnd_level":1010},
+"visibility":10000,
+"wind":{"speed":2.56,"deg":197,"gust":1.8},
+"rain":{"1h":0.1},"clouds":{"all":58},
+"dt":1684843947,
+"sys":{"type":1,"id":1162,"country":"CI","sunrise":1684821627,"sunset":1684866192},
+"timezone":0,
+"id":2288873,
+"name":"France",
+"cod":200}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,600;0,800;0,900;1,300;1,600&family=Source+Sans+3:wght@619;635;726&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot location-icon"></i>
+            <input type="text" placeholder="Enter your location" id="search-input">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="not-found">
+            <img src="images/invalid.png" class="invalid-img">
+            <h3 class="invalid-message">Oops! Invalid location:/</h3>
+        </div>
+        <div class="weather-info">
+            <div class="weather-box">
+                <img src="" class="weather-img">
+                <p class="temp"><span id="temp-numb"></span><span id="degree">&deg;C</span></p>
+                <p class="description"></p>
+            </div>
+    
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="fa-solid fa-water"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+    
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span></span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
